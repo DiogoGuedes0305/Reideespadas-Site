@@ -1,7 +1,7 @@
 $white: #ffffff;
 $black: #000000;
-$primary1: #a34318;
-$btnColor: #85310c;
+$primary1: #1c818f;
+$btnColor: #0f7280;
 
 
 @mixin main-font {
@@ -524,7 +524,7 @@ a:focus {
         height: 100%;
         top: 0;
         left: 0;
-        background-color: rgba($color: #984019, $alpha: .9);
+        background-color: rgba($color: #1c818f, $alpha: .9);
         z-index: 0;
         opacity: 0;
         visibility: hidden;
@@ -715,46 +715,3 @@ a:focus {
 }
 
 // end contact section
-
-/* footer section*/
-
-.footer_section {
-  background-color: #762500;
-  color: $white;
-  padding: 0 15px;
-
-  .row {
-    align-items: center;
-  }
-
-  p {
-    margin: 0;
-    padding: 25px 0;
-    color: $white;
-
-    a {
-      color: inherit;
-    }
-  }
-
-  .link_box {
-    display: flex;
-    justify-content: flex-end;
-
-    a {
-      display: flex;
-      align-items: center;
-      color: $white;
-      margin-left: 15px;
-
-      &:hover {
-        color: $btnColor;
-      }
-    }
-  }
-
-}
-
-
-
-// end footer section
