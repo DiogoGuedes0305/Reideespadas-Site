@@ -622,7 +622,7 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-transform: uppercase;
-  margin-top: 75px;
+  margin-top: 25px;
 }
 
 .review_section .read_btn:hover {
@@ -630,6 +630,38 @@ a:focus {
   color: #ffffff;
 }
 
+/* Mailchimp */
+#mc_embed_signup{
+  margin-top: 200px;
+  background:#1c818f;
+  clear:left; 
+  width: 550px;
+}
+#mc-embedded-subscribe-form input[type=checkbox]{
+  display: inline; 
+  width: auto;
+  margin-right: 10px;
+}
+#mergeRow-gdpr {
+  margin-top: 20px;
+}
+#mergeRow-gdpr fieldset label {
+  font-weight: normal;
+}
+#mc-embedded-subscribe-form .mc_fieldset{
+  border:none;
+  min-height: 0px;
+  padding-bottom:0px;
+}
+
+.review_section a {
+  margin: 5px 0;
+  color: #000000;
+}
+
+.review_section a:hover {
+  color: #ffffff;
+}
 
 .contact_section {
   position: relative;
@@ -688,7 +720,7 @@ a:focus {
 }
 
 .contact_section .info_contact .contact_link_box a:hover {
-  color: #0f7280;
+  color: #000000;
 }
 
 .contact_section .info_social {
